@@ -7,14 +7,17 @@
     
     
 }
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
 .wrapper{
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);   
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);   
     width: 100%;
-    height: 100vh;
+    height: calc(100vh);
 }
 .logo img{
     height: 50px;
-    weight:auto;
+    width:auto;
 }
 nav{
     display: flex;
@@ -39,6 +42,7 @@ a{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-image: linear-gradient(180deg, #e2ebf0 0%, #c35050 99%, #db464b 100%);
 }
 h1{
     font-size: 5em;
@@ -78,4 +82,42 @@ h2{
     transform:  translateY(180deg);
     margin-left: 100px;
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+/* second screen */
+
+
+
+
+/* footer */
+footer{
+    height: 220px;
+    background-color: rgba(115, 115, 115, 0.2);
+}
+.info{
+    width: 70%;
+    margin: 0 auto;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item{
+    margin: 30px 0;
+}
+.item img{
+    height: 40px;
+    
+}
+.social{
+    text-align: center;
+
+}
+.links{
+    display: flex;
+    width: fit-content;
+    margin: 15px auto;
+}
+.links img{
+    height: 40px;
+
 }
