@@ -88,36 +88,4 @@ h2{
 
 
 
-/* footer */
-footer{
-    height: 220px;
-    background-color: rgba(115, 115, 115, 0.2);
-}
-.info{
-    width: 70%;
-    margin: 0 auto;
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    
-}
-.item{
-    margin: 30px 0;
-}
-.item img{
-    height: 40px;
-    
-}
-.social{
-    text-align: center;
-
-}
-.links{
-    display: flex;
-    width: fit-content;
-    margin: 15px auto;
-}
-.links img{
-    height: 40px;
-
-}
+/*  */

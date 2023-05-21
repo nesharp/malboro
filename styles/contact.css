@@ -82,6 +82,7 @@ footer{
     height: 220px;
     background-color: rgba(115, 115, 115, 0.2);
 }
+
 .info{
     width: 70%;
     margin: 0 auto;
@@ -95,12 +96,14 @@ footer{
 }
 .item img{
     height: 40px;
-    
+    width: auto;
+    margin: 0 25%;
 }
+
 .social{
     text-align: center;
 
-}
+}x
 .links{
     display: flex;
     width: fit-content;
